@@ -14,5 +14,10 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', '@typescript-eslint'],
-  rules: {},
+  rules: {
+    '@typescript-eslint/ban-ts-ignore': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
+  },
 }
