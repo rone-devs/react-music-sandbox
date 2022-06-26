@@ -1,0 +1,18 @@
+{
+  // 括弧記号色付け機能を有効化
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  // 制御文字を表示させる
+  "editor.renderControlCharacters": true,
+  // エディター上で空白文字をすべて表示させる
+  "editor.renderWhitespace": "all",
+  // デフォルトのフォーマッタを prettier に指定
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 保存時にフォーマットさせる
+  "editor.formatOnSave": true,
+  // 入力した行を自動でフォーマットさせる
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
